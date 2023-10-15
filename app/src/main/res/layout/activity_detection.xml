@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/back">
+
+    <TextView
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:text="WELCOME TO OUR APP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginBottom="24dp"
+        android:background="@color/white"
+        android:layout_width="330dp"
+        android:layout_height="2dp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/student_login_id"
+        android:layout_width="230dp"
+        android:layout_height="170dp"
+        android:elevation="20dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+
+        >
+
+        <LinearLayout
+            android:foreground="@drawable/category_uni_back"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@color/service_bar"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_gravity="center"
+                android:layout_height="120dp"
+                android:src="@drawable/audience">
+
+            </ImageView>
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Student Login">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/teacher_id"
+        android:layout_marginTop="20dp"
+        android:layout_width="230dp"
+        android:layout_height="170dp"
+        android:backgroundTint="@color/white"
+        android:elevation="100dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:foreground="@drawable/category_uni_back"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@color/service_bar"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:layout_height="100dp"
+                android:src="@drawable/conversation"></ImageView>
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Consultant Login">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

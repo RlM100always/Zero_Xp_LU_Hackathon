@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935408125364",
+    "project_id": "hackathon-57fb3",
+    "storage_bucket": "hackathon-57fb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935408125364:android:61d62cec4acfb8ca5c1ee1",
+        "android_client_info": {
+          "package_name": "com.techtravelcoder.hackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIL2EfHMxB6ux94-tboTAPCkqgyKgadak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

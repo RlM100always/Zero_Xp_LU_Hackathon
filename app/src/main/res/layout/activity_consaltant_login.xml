@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginandsignup.ConsaltantLoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/login_back"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:background="@drawable/back"
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="25dp"
+            android:elevation="80dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.426"
+            tools:layout_editor_absoluteX="46dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="45dp"
+                android:text="Login From"
+                android:textColor="@color/yellow"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:textColorHint="@color/hint_colour"
+                android:textColor="@color/black"
+                android:id="@+id/loginEmailTeacherId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="5dp"
+                android:hint="Enter your email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:textColorHint="@color/hint_colour"
+                android:textColor="@color/black"
+                android:id="@+id/loginPasswordTeacherId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="5dp"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="11dp"
+                android:text="Forget Password"
+                android:textColor="@color/yellow"
+                android:textStyle="bold" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/loginFromTeacherLoginId"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/log_back"
+                android:elevation="15dp"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/back"
+            android:id="@+id/linearLayout3"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:elevation="90dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:background="@drawable/graduation"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:padding="10dp"
+            android:id="@+id/loginFromSignupTeacherId"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@drawable/back"
+            android:elevation="15dp"
+            android:text="Sign Up for Cosaltant"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+            app:layout_constraintVertical_bias="0.141"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

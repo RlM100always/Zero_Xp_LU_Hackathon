@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#8CEC0C</color>
+    <color name="blue">#0000FF</color>
+    <color name="primary">#FFDE03F2</color>
+    <color name="service_bar">#FC191E5D</color><!-- FC191E5D-->
+    <color name="yellow">#FFFF00</color>
+    <color name="documentary">#F10202</color>
+    <color name="statusbar">#0776EB</color>
+    <color name="coloryellow">#FFC107</color>
+    <color name="back">#FC050721</color><!-- FC050721-->
+    <color name="back_upper">#AB202677</color> <!-- AB202677-->
+    <color name="allert_back_upper">#CC0A0D39</color><!-- CC0A0D39-->
+    <color name="hint_colour">#726F6F</color>
+    <color name="ruby">#E91E63</color>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group >
+        <item
+            android:id="@+id/home_Id"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+
+        <item
+            android:id="@+id/study_consaltancy_menu"
+            android:title="Study cosultancy"
+            android:icon="@drawable/bduniversity"
+            />
+        <item android:id="@+id/guide_line_menu"
+            android:title="Guideline"
+            android:icon="@drawable/bduniversity"/>
+
+
+
+
+    </group>
+
+
+<!--
+<item android:title="Specefic Service">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/documentary_news_id"
+                    android:title="Documentary"
+                    android:icon="@drawable/introduction"
+                    />
+                <item
+                    android:id="@+id/hall_news_Id"
+                    android:title="Hall News"
+                    android:icon="@drawable/hostel"
+                    />
+                <item
+                    android:id="@+id/teachers_info_Id"
+                    android:title="Teachers Information"
+                    android:icon="@drawable/teacher"
+                    />
+                <item
+                    android:id="@+id/transportation_Id"
+                    android:title="Transportation Service"
+                    android:icon="@drawable/transport"
+                    />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Common Service">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/pdf_books"
+                    android:title="PDF Books Library"
+                    android:icon="@drawable/pdf_books"
+                    />
+                <item
+                    android:id="@+id/students_community"
+                    android:title="Students Community"
+                    android:icon="@drawable/community"
+                    />
+                <item
+                    android:id="@+id/news_Id"
+                    android:title="News"
+                    android:icon="@drawable/news"
+                    />
+                <item
+                    android:id="@+id/cgpa_id"
+                    android:title="CGPA Calculator"
+                    android:icon="@drawable/news"
+                    />
+
+
+
+
+            </group>
+
+        </menu>
+
+    </item>
+ -->
+
+
+
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group >
+
+                <item
+                    android:id="@+id/feedback_Id"
+                    android:title="Feedback"
+                    android:icon="@drawable/feedback"
+                    />
+
+
+                <item
+                    android:id="@+id/share_Id"
+                    android:title="Share"
+                    android:icon="@drawable/share"
+                    />
+                <item
+                    android:id="@+id/rate_us_Id"
+                    android:title="Ratting Our App"
+                    android:icon="@drawable/star"
+                    />
+                <item
+                    android:id="@+id/privacy_policy_Id"
+                    android:title="Privacy Policy"
+                    android:icon="@drawable/privacy"
+                    />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="Others" >
+        <menu>
+            <group >
+                <item
+                    android:id="@+id/developer_info"
+                    android:title="Developer Info"
+                    android:icon="@drawable/community"
+                    />
+
+                <item
+                    android:id="@+id/log_out_id"
+                    android:title="Log out"
+                    android:icon="@drawable/logout"
+                    />
+
+                <item
+                    android:id="@+id/exit_Id"
+                    android:title="Exit"
+                    android:icon="@drawable/exit"
+                    />
+
+            </group>
+
+        </menu>
+    </item>
+</menu>

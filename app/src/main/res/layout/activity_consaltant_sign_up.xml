@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/back"
+    android:layout_height="match_parent"
+    tools:context=".loginandsignup.ConsaltantSignUpActivity">
+
+
+    <ScrollView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Teacher SignUp"
+                android:textColor="@color/yellow"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Name "
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:textColorHint="@color/hint_colour"
+                android:textColor="@color/black"
+                android:id="@+id/teachersignUpName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/sign_name"
+                android:drawablePadding="5dp"
+                android:hint="Enter your name"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="University Name"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:padding="5dp">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/teachersignUpUniversityName"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Department"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:padding="5dp">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/teachersignUpDeptName"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:text="Email"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_colour"
+                android:id="@+id/teachersignUpEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="5dp"
+                android:hint="Enter your email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Phone Number"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_colour"
+                android:id="@+id/teachersignUpPhone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/sign_phone"
+                android:drawablePadding="5dp"
+                android:hint="Enter your phone number"
+                android:inputType="phone"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Expertise"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:padding="5dp">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/teachersignUpExpertise"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Teacher Id"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+            <EditText
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_colour"
+                android:id="@+id/teachersignupId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="5dp"
+                android:hint="Enter your Teacher Id"
+                android:inputType="text"
+                android:paddingLeft="5dp" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Password"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_colour"
+                android:id="@+id/teachersignUpPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="5dp"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Re-Enter Password"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_colour"
+                android:id="@+id/teachersignUpReenterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="5dp"
+                android:hint="Re-enter your password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/alreadySignUpTeacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="! Already Sign up..."
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/teachersignUpButton"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/log_back"
+                android:elevation="105dp"
+                android:text="Sign UP"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

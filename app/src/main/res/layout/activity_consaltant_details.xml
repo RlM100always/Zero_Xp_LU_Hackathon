@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/back"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/back"
+
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_margin="15dp"
+                    android:src="@drawable/image_du"
+                    android:layout_gravity="center"
+
+                    android:id="@+id/dt_image_id"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/dt_name_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:text="Md Rakibul Islam"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/dt_dept_id"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:text="Department of Computer Science And Engineering"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/dt_expert_id"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:text="Expertise Topic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="15dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/allert_back_upper"
+                    android:text="About me"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"></TextView>
+                <TextView
+                    android:id="@+id/dt_description_id"
+                    android:layout_width="match_parent"
+                    android:padding="15dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/allert_back_upper"
+                    android:text="I am a dedicated and passionate educator with [X] years of experience in the field of education. I believe in the power of learning and its ability to transform lives. My teaching philosophy revolves around fostering an engaging and inclusive learning environment where students can thrive academically and personally."
+                    android:textStyle="normal"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"></TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Request for \n Consultancy"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/documentary">
+
+                </Button>
+                <Button
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Ask any \n Question"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/documentary">
+
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

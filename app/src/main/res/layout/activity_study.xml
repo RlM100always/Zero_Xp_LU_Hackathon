@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context=".service.StudyActivity">
+    <androidx.appcompat.widget.Toolbar
+        app:navigationIcon="@drawable/back_pressed"
+        android:id="@+id/tb_news"
+        android:background="@color/service_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <EditText
+            android:id="@+id/edNewsSearch"
+            android:paddingLeft="9dp"
+            android:hint="Search here "
+            android:textColorHint="#000000"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/search_icon"
+            android:background="@drawable/serchbar_background"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

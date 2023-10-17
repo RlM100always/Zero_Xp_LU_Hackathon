@@ -24,8 +24,27 @@ It is a hackathon project . We complete this app in one day .
 
 ## Screenshots
 
-<img src="screenshot_1.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_2.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_3.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_4.png" alt="Screenshot 1" width="300" height="550">
-<img src="screenshot_5.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_6.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_7.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_8.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_9.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_10.png" alt="Screenshot 1" width="300" height="550"><img src="screenshot_11.png" alt="Screenshot 1" width="300" height="550">
+<table>
+  <tr>
+    <td><img src="screenshot_1.png" alt="Screenshot 1" width="400" height="400"></td>
+    <td><img src="screenshot_2.png" alt="Screenshot 2" width="400" height="400"></td>
+    <td><img src="screenshot_3.png" alt="Screenshot 3" width="400" height="400"></td>
+    <td><img src="screenshot_4.png" alt="Screenshot 4" width="400" height="400"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshot_5.png" alt="Screenshot 5" width="400" height="400"></td>
+    <td><img src="screenshot_6.png" alt="Screenshot 6" width="400" height="400"></td>
+    <td><img src="screenshot_7.png" alt="Screenshot 7" width="400" height="400"></td>
+    <td><img src="screenshot_8.png" alt="Screenshot 8" width="400" height="400"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshot_9.png" alt="Screenshot 9" width="400" height="400"></td>
+    <td><img src="screenshot_10.png" alt="Screenshot 10" width="400" height="400"></td>
+    <td><img src="screenshot_11.png" alt="Screenshot 11" width="400" height="400"></td>
+  </tr>
+</table>
+
+
 
 ## Technology
 It is a java language based app .For backend we use firebase database and for frontend we use xml .
